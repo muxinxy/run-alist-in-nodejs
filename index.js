@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 
 // 下载 alist 压缩包
-const downloadUrl = 'https://github.com/alist-org/alist/releases/download/v3.29.1/alist-linux-amd64.tar.gz';
+const downloadUrl = 'https://github.com/AlistGo/alist/releases/download/v3.45.0/alist-linux-amd64.tar.gz';
 const tarFile = 'alist-linux-amd64.tar.gz';
 
 // 使用 curl 下载文件
